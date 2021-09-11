@@ -1,0 +1,57 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(home3.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover ;
+
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: big john;
+}
+
+.nav-link{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-family: monospace;
+    color: white;
+}
+
+.banner-btn a{
+    border: 1px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+}
+.banner-btn a.active{
+    background:rgb(224, 165, 38);
+    border-color: rgb(224, 165, 38);
+    color: white;
+}
+.banner-btn a:hover{
+    background: rgb(224, 165, 38);
+    color: white;
+    border-color: rgb(224, 165, 38);
+}
+.text-area{
+    font-size: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-area span{
+    color: rgb(224, 165, 38);
+}
